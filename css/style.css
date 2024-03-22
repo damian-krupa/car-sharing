@@ -27,7 +27,7 @@ a {
 }
 
 .container {
-  width: 1088px;
+  max-width: 1088px;
   margin: 0 auto;
 }
 
@@ -227,7 +227,8 @@ section.container {
 .service-articles {
   display: flex;
   justify-content: space-between;
-  gap: 45px;
+  flex-wrap: wrap;
+  gap: 16px;
   margin: 30px 0 100px 0;
 }
 
@@ -276,6 +277,7 @@ section.container {
 
 .service-article-text {
   text-align: center;
+  width: 230px;
 }
 
 .blog-article-text {
